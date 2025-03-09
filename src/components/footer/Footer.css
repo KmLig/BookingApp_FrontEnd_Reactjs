@@ -1,0 +1,19 @@
+.footer {
+  background-color: #c5d6e9;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  flex-shrink: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng */
+}
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #555;
+}

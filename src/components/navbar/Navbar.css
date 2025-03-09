@@ -1,0 +1,61 @@
+/* Block: Navbar */
+.navbar {
+  background: linear-gradient(135deg, #498acf, #023469); /* Gradient xanh */
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 60px; /* Định chiều cao cố định */
+
+}
+
+/* Element: Container */
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Element: Logo */
+.navbar__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Element: Menu */
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Element: Menu Item */
+.navbar__item {
+  display: inline;
+}
+
+/* Element: Link */
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+/* Modifier: Hover effect */
+.navbar__link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
